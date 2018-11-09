@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: python-devtools
+Version: 2
+Summary: Dev tools for python
+Home-page: https://github.com/samuelcolvin/python-devtools
+Author: Samuel Colvin
+Author-email: s@muelcolvin.com
+License: MIT
+Description: python devtools
+        ===============
+        
+        Moved to `https://pypi.org/project/devtools <https://pypi.org/project/devtools>`_.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.5
