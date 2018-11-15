@@ -2,7 +2,7 @@ numconsumers=4
 numproducers=4
 nummessages=4
 
-import  threading,queue,time,sys
+import  threading,queue,time
 safeprint=threading.Lock()
 dataqueue=queue.Queue()
 
@@ -35,6 +35,5 @@ if __name__=='__main__':
         thread.start()
 
     for thread in waitfor:
-        324
         thread.join()
     print('main thread exiting.')
