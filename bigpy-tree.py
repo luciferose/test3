@@ -14,5 +14,8 @@ for (thisdir,subshere,fileshere) in os.walk(dirname):
             allsizes.append((fullsize,fullname))
 
 allsizes.sort()
-pprint.pprint(allsizes[2])
+pprint.pprint(allsizes[:2])
+pprint.pprint('-'*100)
 pprint.pprint(allsizes[-2:])
+pprint.pprint('-'*100)
+pprint.pprint(allsizes)
