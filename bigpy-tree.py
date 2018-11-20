@@ -1,6 +1,6 @@
 import sys,os,pprint
 trace=False
-dirname='/'
+dirname=input('path:')
 allsizes=[]
 for (thisdir,subshere,fileshere) in os.walk(dirname):
     if trace:
